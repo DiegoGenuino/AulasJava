@@ -3,7 +3,7 @@ package Aula04;
 public class Exemplo1_1 {
     public static void main(String[] args) {
 
-        String corSema = "AMAReLO";
+        String corSema = "amarelo";
 
         if (corSema.equalsIgnoreCase("verde")) {
             System.out.println("Avance");
@@ -13,8 +13,21 @@ public class Exemplo1_1 {
         } else if (corSema.equalsIgnoreCase("vermelho")) {
             System.out.println("Pare");
         } else {
-            System.out.println("Cor invalida");
+            System.out.println("Cor inválida");
+        }
+
+        switch (corSema) {
+            case "verde":
+                System.out.println("===============Avance===============");
+
+            case "amarelo":
+                System.out.println("===============Atenção===============");
+
+            case "vermelho":
+                System.out.println("===============Pare===============");
+
+            default:
+                System.out.println("===============Cor inválida===============");
         }
     }
 }
-
