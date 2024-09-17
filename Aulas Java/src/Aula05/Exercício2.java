@@ -5,7 +5,6 @@ public class Exercício2 {
         int compra1 = 235;
         int compra2 = 123;
         double desconto = 0.1;
-
         double valorTotal = compra1 + compra2;
 
         if (valorTotal > 100) {
