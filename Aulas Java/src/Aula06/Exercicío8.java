@@ -7,7 +7,6 @@ public class Exercicío8 {
         Scanner scanner = new Scanner(System.in);
 
         int linhas, colunas;
-        double soma = 0;
         double somalinhaUm = 0;
         double somalinhaDois = 0;
 
@@ -19,20 +18,28 @@ public class Exercicío8 {
 
         double[][] matriz = new double[linhas][colunas];
         System.out.println("Digite números para preencher a matriz:");
-        for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 2; j++) {
+
+
+        for (int i = 0; i < linhas; i++) {
+            for (int j = 0; j < colunas; j++) {
                 matriz[i][j] = scanner.nextDouble();
             }
         }
+
+
         for (int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
-                somalinhaUm = i + matriz[i][j];
-                somalinhaDois = j + matriz[i][j];
+                if (i == 0) {
+                    somalinhaUm += matriz[i][j];
+                } else if (i == 1) {
+                    somalinhaDois += matriz[i][j];
+                }
             }
         }
+
         System.out.println("A soma dos números da linha 1 é: " + somalinhaUm);
-        System.out.println("A soma dos números da linha 2 é: " + somalinhaDois);
+        if (linhas > 1) {
+            System.out.println("A soma dos números da linha 2 é: " + somalinhaDois);
+        }
     }
 }
-
-//EXERCICIO NAO RESOLVIDO

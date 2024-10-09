@@ -13,6 +13,7 @@ public class Exercicío6 {
         System.out.println("Digite números inteiros para preencher a matriz: \n");
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
+                System.out.printf("Elemento [%d][%d]: ", i, j);
                 matriz[i][j] = scanner.nextInt();
             }
         }
@@ -20,8 +21,9 @@ public class Exercicío6 {
 
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
-                System.out.println(matriz[i][j]);
+                System.out.println(matriz[i][j] + " ");
             }
+            System.out.println();
         }
     }
 }

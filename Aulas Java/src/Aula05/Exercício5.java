@@ -1,20 +1,19 @@
 package Aula05;
 
+import java.util.Scanner;
+
 public class Exercício5 {
     public static void main(String[] args) {
-        int horasTrabalhadas = 48;
-        int horasNormais = 40;
-        double horasExtras;
-        int valorPorHora = 5;
-        double valorTotalHoraExtra;
 
-        if (horasTrabalhadas > 40) {
-            horasExtras = horasTrabalhadas - horasNormais;
-            valorTotalHoraExtra = horasExtras * valorPorHora;
-            System.out.println("Horas extras trabalhadas: " + horasExtras);
-            System.out.println("O valor a ser pago pelas horas extras é: R$" + valorTotalHoraExtra);
-        } else {
-            System.out.println("Você não fez horas extras.");
+        Scanner scanner = new Scanner(System.in);
+        int notas = 0, media;
+        for (int i = 1; i < 6; i++) {
+            System.out.println("Digite a " + i + "ª nota");
+            notas += scanner.nextInt();
+
         }
+        media = notas / 5;
+        System.out.println("Sua média é " + media);
+        scanner.close();
     }
 }

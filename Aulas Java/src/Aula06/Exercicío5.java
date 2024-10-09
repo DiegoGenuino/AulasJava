@@ -6,7 +6,7 @@ public class Exercicío5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String resposta;
-        String msg = "";
+        String msg = "Não tem";
         String[] nomes = {"Diego", "Yago", "João"};
 
         System.out.println("Digite um nome:");
@@ -15,8 +15,6 @@ public class Exercicío5 {
             if (resposta.equals(nomes[i])) {
                 msg = "Tem";
                 break;
-            } else {
-                msg = "Não tem";
             }
         }
         System.out.println(msg);
