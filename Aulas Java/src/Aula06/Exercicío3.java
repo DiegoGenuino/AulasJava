@@ -23,6 +23,7 @@ public class Exercicío3 {
             }
         }
         System.out.println("Existem " + quantidadeTrues + " Trues");
+
         scanner.close();
     }
 }

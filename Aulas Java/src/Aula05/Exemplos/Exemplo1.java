@@ -6,7 +6,7 @@ public class Exemplo1 {
 
         while (idade < 18) {
             System.out.println(idade);
-            idade = idade +1;
+            idade = idade + 1;
         }
     }
 }

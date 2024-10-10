@@ -41,5 +41,6 @@ public class Exercicío8 {
         if (linhas > 1) {
             System.out.println("A soma dos números da linha 2 é: " + somalinhaDois);
         }
+        scanner.close();
     }
 }

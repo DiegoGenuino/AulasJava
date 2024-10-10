@@ -10,6 +10,6 @@ public class Exercicío3 {
     }
 
     public static void dobrar(int numero) {
-        System.out.println(numero *2);
+        System.out.println(numero * 2);
     }
 }

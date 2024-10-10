@@ -18,5 +18,7 @@ public class Exercicío4 {
             media = somaNotas / notas.length;
         }
         System.out.println("A média das notas é: " + media);
+
+        scanner.close();
     }
 }

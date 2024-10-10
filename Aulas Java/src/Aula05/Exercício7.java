@@ -13,7 +13,5 @@ public class Exercício7 {
             System.out.println("Digite a nota novamente");
         }
 
-
-
     }
 }

@@ -23,5 +23,7 @@ public class Exercicío7 {
             }
         }
         System.out.println("O valor total da matriz é: " + soma);
+
+        scanner.close();
     }
 }

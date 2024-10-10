@@ -24,6 +24,8 @@ public class Exercicío6 {
                 System.out.println(matriz[i][j] + " ");
             }
             System.out.println();
+
+            scanner.close();
         }
     }
 }

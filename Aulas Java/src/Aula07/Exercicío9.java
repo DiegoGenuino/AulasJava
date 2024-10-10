@@ -10,10 +10,10 @@ public class Exercicío9 {
     }
 
     public static void calcularPotencia(int n1, int n2) {
-            int resultado = 1;
-            for (int i = 0; i < n2; i++) {
-                resultado *= n1;
-            }
+        int resultado = 1;
+        for (int i = 0; i < n2; i++) {
+            resultado *= n1;
+        }
         System.out.println(resultado);
     }
 }

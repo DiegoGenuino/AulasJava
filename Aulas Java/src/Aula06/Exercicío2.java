@@ -25,8 +25,5 @@ public class Exercicío2 {
         }
 
         scanner.close();
-
-
     }
-
 }
