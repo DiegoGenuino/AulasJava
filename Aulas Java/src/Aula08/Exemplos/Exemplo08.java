@@ -1,7 +1,5 @@
 package Aula08.Exemplos;
 
-import java.util.Arrays;
-
 public class Exemplo08 {
     public static void main(String[] args) {
         String linha = "ID:1;NOME:DIEGO;IDADE:16";

@@ -2,7 +2,6 @@ package Aula08.Exemplos;
 
 import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 
 public class Exemplo04 {

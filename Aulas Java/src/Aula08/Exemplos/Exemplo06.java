@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+
 public class Exemplo06 {
     public static void main(String[] args) {
 
@@ -16,10 +17,10 @@ public class Exemplo06 {
 
             bufferedWriter.write("Texto escrito com o modulo append habilitado.");
             bufferedWriter.close();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
 
     }
 }
